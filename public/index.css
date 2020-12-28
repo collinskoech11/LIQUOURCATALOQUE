@@ -6,16 +6,80 @@
 body{
     overflow-x: hidden;
     text-align: center;
-    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    
 }
 .main{
     margin: 20px;
     padding:0;
     box-shadow: 5px 8px 5px 5px #888888;
     border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     
 }
 img{
    max-width: 100%;
     height: auto;
 }
+.price-list{
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 5px 8px 5px 5px #888888;
+    border-radius: 5px;
+    color: #fff;
+    height: auto;
+    background: rgba(5, 5, 55, 0.7);
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.price-list h1{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.price-list p{
+    font-style: italic;
+}
+.brand,.price{
+    width: 50%;
+    float: left;
+    background: rgba(5, 5, 55, 0.7);
+    box-shadow: 5px 8px 5px 5px #888888;
+}
+.brand{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.price{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-group{
+    width: 100%;
+}
+.data{
+    width:100%;
+    height:auto;
+    border:1px solid lightblue;
+}
+@media screen and (max-width:800px){
+    .data{
+        height: 45px;
+    }
+    .kc{
+        height: 55px;
+    }
+}
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
